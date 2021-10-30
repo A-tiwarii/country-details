@@ -81,7 +81,7 @@ function App() {
       </div>
 
       <div style={{ margin: "5%" }}>
-        <h1>Cuntry details</h1>
+        <h1>Country details</h1>
         {data
           .filter((value) => {
             if (value.name.common == country) return value;
